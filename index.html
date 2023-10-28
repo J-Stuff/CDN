@@ -12,8 +12,8 @@
   <div class="message5">© J Stuff 2023</div>
 
   <script>
-    var ip = ""
     function getIP(json) {
+      var ip = ""
       ip = json.ip
       document.getElementsByClassName("message4")[0].innerHTML = `Your IP address (${ip}) and actions on this site have been logged.`
       console.log(`Your IP address has been detected as ${ip} (http://api.ipify.org | http://www.ipify.org)`)

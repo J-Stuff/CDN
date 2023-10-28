@@ -1,0 +1,22 @@
+<head><link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet">
+    <title>Forbidden!</title>
+    </head>
+    <body>
+      <div class="message">Forbidden
+      </div>
+      <div class="message2">You attempted to access a restricted location.</div>
+      <div class="message3">Authenticating will not resolve this error.</div>
+      <div class="message4">Your IP address and actions on this site have been logged.</div>
+      <div class="message5">© J Stuff 2023</div>
+    
+      <script>
+        function getIP(json) {
+          var ip = ""
+          ip = json.ip
+          document.getElementsByClassName("message4")[0].innerHTML = `Your IP address (${ip}) and actions on this site have been logged.`
+          console.log(`Your IP address has been detected as ${ip} (http://api.ipify.org | http://www.ipify.org)`)
+        }
+      </script>
+      <script src="http://api.ipify.org?format=jsonp&callback=getIP"></script>

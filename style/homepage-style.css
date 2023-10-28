@@ -15,7 +15,6 @@ body {
   color: azure;
 }
 .message1{
-  font-family: 'Poppins', sans-serif;
   font-size: 30px;
   color: white;
   font-weight: 300;
@@ -26,7 +25,6 @@ body {
   transform: translate(-50%, -50%);
 }
 .copyright{
-  font-family: 'Poppins', sans-serif;
   font-size: 10px;
   color: white;
   font-weight: 300;

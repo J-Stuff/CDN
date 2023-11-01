@@ -13,9 +13,6 @@ body {
   padding:0 24px;
 }
 
-a {
-  color: azure;
-}
 
 .forbidMsg {
   font-size: 60px;
@@ -38,16 +35,6 @@ a {
   transform: translate(-50%, -50%);
 }
 
-.closeMessage{
-  font-size: 15px;
-  color: azure;
-  font-weight: 300;
-  position: absolute;
-  text-align: center;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 .copyright{
   font-size: 10px;
